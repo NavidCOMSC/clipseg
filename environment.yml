@@ -9,7 +9,8 @@ dependencies:
   - pip
   - pip:
     - --find-links https://download.pytorch.org/whl/torch_stable.html
-    - torch==1.12.1+cpu
-    - torchvision==0.13.1+cpu    
+    - torch==2.0.0
+    - torchvision==0.15.1   
     - opencv-python
+    - ipykernel
     - git+https://github.com/openai/CLIP.git
