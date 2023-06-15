@@ -132,6 +132,10 @@ dmypy.json
 .pyre/
 
 # images
-.png
-.jpg
-.tif 
+*.png
+*.jpg
+*.tif
+
+# weights
+weights/
+*.zip
